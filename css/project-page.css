@@ -1,0 +1,85 @@
+body {
+
+}
+
+#booksvisited{
+color:blue;
+}
+
+.quote{
+    font-family:Arial;
+    font-size: 16px;
+    display: inline;
+    font-style: italic;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: inline-block;
+
+
+}
+
+p {
+    font-family:Arial;
+    font-size: 20px;
+    display: inline-block;
+    cursor: default;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover{
+    color: pink;
+}
+
+
+
+.right {
+    position: fixed;
+   float: right;
+   width: 48%;
+   height: 100%;
+   right: 0;
+   top: 0;
+   float: right;
+   overflow: scroll;
+   background-color: white;
+}
+
+.right img{
+
+    width: 100%;
+    height: auto;
+}
+
+
+.left {
+    width: 50%;
+    position: fixed;
+    height:100%;
+    top:0px;
+    left:0px;
+    overflow: scroll;
+    display: block;
+    margin: 12px;
+    margin-top: 8px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+}
+
+.left img{
+    height: 65vh;
+}
+
+.pathbook{
+color:blue;
+}

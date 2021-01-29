@@ -1,0 +1,117 @@
+body {
+    display: block;
+    margin: 12px;
+    margin-top: 8px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+}
+
+
+.left {
+  left:0px;
+}
+
+.right {
+  right:52vw;
+}
+/* p {
+  position:absolute;
+  top:0px;
+
+} */
+
+
+
+img{
+    display: none;
+    width: 65vh;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+span {
+    cursor: pointer;
+}
+
+
+
+span:hover + img{
+    display: block;
+    cursor: pointer;
+}
+
+.list {
+
+    font-family:Arial;
+    font-size: 20px;
+    display: inline-block;
+    cursor: default;
+}
+
+
+
+
+
+#word-list :hover +img{
+    display: inline;
+    float:right;
+    margin-top: 200px;
+
+}
+
+
+
+#pdf:hover{
+    color:#f23f1f;
+}
+
+a:hover, span:hover, #yale:hover {
+ color:#2514c4;
+}
+
+ span:hover, #books:hover {
+ color:#3bff3b;
+}
+
+#book-image{
+    width: 85vh;
+}
+a:hover, span:hover, #posters:hover {
+ color:#98fae3;
+}
+
+a:hover, span:hover, #printed:hover {
+ color:#ffa04d;
+}
+
+a:hover, span:hover, #video:hover {
+ color:#9700a8;
+}
+
+a:hover, span:hover, #gifs:hover {
+ color:#7ab4ff;
+}
+
+a:hover, span:hover, #websites:hover {
+ color:#d757f7;
+}
+
+a:hover, span:hover, #things:hover {
+ color:#73f09f;
+}
+
+a:hover, span:hover, #email:hover {
+ color:#ff637d;
+}
+
+a:hover, span:hover, #insta:hover {
+ color:#ffdd75;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
