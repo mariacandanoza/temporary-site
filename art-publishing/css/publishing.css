@@ -1,0 +1,366 @@
+body {
+    display: block;
+    margin: 12px;
+    margin-top: 8px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+}
+
+
+.left {
+  left:0px;
+}
+
+.right {
+  right:52vw;
+}
+/* p {
+  position:absolute;
+  top:0px;
+
+} */
+
+p{
+width: 65vh;
+
+}
+
+
+img{
+    display: none;
+    width: 65vh;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+
+
+
+span {
+    cursor: pointer;
+}
+
+
+
+span:hover + img{
+    display: block;
+    cursor: pointer;
+}
+
+.list {
+
+    font-family:Arial;
+    font-size: 20px;
+    display: inline-block;
+    cursor: default;
+}
+
+#in-text-image{
+    display:inline;
+
+    padding: 10px;
+}
+
+
+
+#word-list :hover +img{
+    display: inline;
+    position: fixed;
+    float:right;
+    margin-top: 200px;
+
+}
+
+span:hover, #contemporary-context:hover {
+color:#d41406;
+}
+
+span:hover, #all-footnotes:hover {
+color:#e310b9;
+}
+
+
+ span:hover, #history:hover {
+ color:#3bff3b;
+}
+
+span:hover, #book-making:hover {
+color:purple;
+}
+
+span:hover, #artist-books:hover {
+color:red;
+}
+
+span:hover, #printed-matter:hover {
+color:green;
+}
+
+span:hover, #art-book-fairs:hover {
+color:blue;
+}
+
+span:hover, #digital-and-online:hover{
+    color:orange;
+}
+
+span:hover, #book:hover{
+    color:pink;
+}
+
+span:hover, #publishing:hover{
+    color:cyan;
+}
+
+span:hover, #self-publishing:hover{
+    color:violet;
+}
+
+span:hover, #catalogs:hover{
+    color:violet;
+}
+
+
+
+span:hover, #Designed-Books:hover{
+    color:red;
+}
+
+span:hover, #interview-with-tauba-auerbach:hover{
+    color:red;
+}
+
+span:hover, #Publications:hover{
+    color:yellow;
+}
+
+
+span:hover, #from-book-to-publishing:hover{
+    color:cyan;
+}
+
+span:hover, #tauba:hover{
+    color:#c3eb34;
+}
+span:hover, #diagonal-press:hover{
+    color:#343deb;
+}
+
+span:hover, #martine:hover{
+    color:#03c6fc;
+}
+
+span:hover, #Visibility-of-Cultural-Production:hover{
+    color:#6367bf;
+}
+
+span:hover, #Radical-Contemporaneity:hover{
+    color:#ff002f;
+}
+
+span:hover, #Publishing-as-Artistic-Practice:hover{
+    color:#ffb68f;
+}
+
+span:hover, #Technization-and-the-Post-Digital:hover{
+    color:#e7ff8f;
+}
+
+span:hover, #The-Starting-Point-for-the-NO-ISBN-Project:hover{
+    color:#8fb8ff;
+}
+
+span:hover, #Concerning-the-Boom-of-Artists’-Books-and-Micro-Fairs:hover{
+    color:#a98fff;
+}
+
+span:hover, #Ed-Ruscha’s-Letter:hover{
+    color:#ff8fbe;
+}
+
+span:hover, #Infinite-Hospitality:hover{
+    color:#ff8f9e;
+}
+
+span:hover, #A-Library-is-a-Space:hover{
+    color:#d6db35;
+}
+
+span:hover, #Notes-Toward-a-Publishing-Practice:hover{
+    color:#aa32c2;
+}
+
+span:hover, #The-book-as-future-of-the-past:hover{
+    color:#52b51d;
+}
+
+span:hover, #The-Work-of-Art-in-the-Age-of-Its-Digital-Reproducibility:hover{
+    color:#cf95af;
+}
+
+span:hover, #The-publication-is-the-artwork:hover{
+    color:#9173f5;
+}
+
+
+
+span:hover, #Book-Gertrude:hover{
+    color:#355edb;
+}
+
+span:hover, #The-Future-of-the-Book:hover{
+    color:#eac9ff;
+}
+
+span:hover, #On-the-Cult-of-Books:hover{
+    color:#b80d9e;
+}
+
+span:hover, #A-User’s-Guide-to-Detournement:hover{
+    color:#703200;
+}
+
+span:hover, #The-Book-as-Machine:hover{
+    color:#004b70;
+}
+
+span:hover, #Dispersion:hover{
+    color:#5e90a8;
+}
+
+span:hover, #The-Ends-of-the-Book-Reading:hover{
+    color:#a6d5ed;
+}
+
+span:hover, #The-book-as-future-of-the-past:hover{
+    color:#;
+}
+
+span:hover, #The-Work-of-Art-in-the-Age-of-Its-Digital-Reproducibility:hover{
+    color:#;
+}
+
+span:hover, #The-publication-is-the-artwork:hover{
+    color:#;
+}
+
+span:hover, #Notes-Toward-a-Publishing-Practice:hover{
+    color:#;
+}
+
+span:hover, #:hover{
+    color:#;
+}
+
+span:hover, #:hover{
+    color:#;
+}
+
+span:hover, #:hover{
+    color:#;
+}
+
+span:hover, #:hover{
+    color:#;
+}
+
+span:hover, #:hover{
+    color:#;
+}
+
+span:hover, #:hover{
+    color:#;
+}
+
+
+span:hover, #Publishing-and-the-Public-Sphere:hover{
+    color:#b53355;
+}
+
+span:hover, #dominica:hover{
+    color:#fc0390;
+}
+
+span:hover, #Private-Publishing:hover{
+    color:#035218;
+}
+
+span:hover, #Publishing-as-Creating-a-Public:hover{
+    color:#ff7c54;
+}
+
+span:hover, #editorial-and-curatorial-practices:hover{
+    color:#a1fff1;
+}
+
+span:hover, #publishing-as-site-specific:hover{
+    color:#fcba03;
+}
+
+span:hover, #artistic-autonomy:hover{
+    color:#fc0388;
+}
+
+
+
+span:hover, #kandis:hover{
+    color:#fc0390;
+}
+
+span:hover, #cassandra:hover{
+    color:#fc0380;
+}
+
+span:hover, #distribution:hover{
+    color:#b0f542;
+}
+
+span:hover, #seth-siegelaub:hover{
+    color:#3455eb;
+}
+
+span:hover, #xerox-book:hover{
+    color:#34ebc3;
+}
+
+span:hover, #printed-matter:hover{
+    color:#a534eb;
+}
+
+span:hover, #interview-tauba-auerbach:hover{
+    color:#8403fc;
+}
+
+span:hover, #web-to-book:hover{
+    color:#5ca832;
+}
+
+span:hover, #list-of-entries:hover{
+    color:#eb3464;
+}
+
+span:hover, #:hover{
+    color:;
+}
+
+#title{
+    font-style: italic;
+}
+
+span:hover, #title:hover {
+color: black;
+}
+
+#source{
+    font-style: italic;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
