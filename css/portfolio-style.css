@@ -111,6 +111,10 @@ a:hover, span:hover, #insta:hover {
  color:#ffdd75;
 }
 
+a:hover, span:hover, #portfolio:hover {
+ color:#eb4034;
+}
+
 a {
     text-decoration: none;
     color: inherit;
